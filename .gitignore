@@ -1,0 +1,152 @@
+# Data files
+/data/
+*.csv
+*.avro
+*.gpx
+*.mp4
+*.mkv
+*.xlsx
+*.zip
+*.rar
+*.jpg
+*.pdf
+*.docx
+*.pt
+*.pth
+*.cfg
+
+# Model weights and configurations
+# 2. 忽略所有 weights 文件夹的内容
+**/weights/*
+
+# 3. 最后定义“白名单”放行特定的文件（优先级最高）
+!**/weights/ckpt.t7
+!**/weights/osnet_x0_25.pth
+
+# Results and outputs
+/runs/
+/wandb/
+/track_result.txt
+/track_results/
+/demo_result/
+/frames/
+/person_videos/
+/test/
+/results/
+
+# System files
+.DS_Store
+Thumbs.db
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+/share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE and editor files
+/.idea/
+/.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+/htmlcov/
+/.tox/
+/.nox/
+/.coverage
+/.coverage.*
+/.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+/.hypothesis/
+/.pytest_cache/
+/cover/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Documentation
+/docs/_build/
+/site
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython
+cython_debug/
+
+# Java/Maven
+evac_web_platform/target/
+evac_web_platform/.mvn/
+evac_web_platform/mvnw
+evac_web_platform/mvnw.cmd
+evac_web_platform/.settings/
+evac_web_platform/.project
+evac_web_platform/.classpath
+evac_web_platform/.factorypath
+
+# Frontend/Node.js
+evac_web_platform/src/main/resources/static/node_modules/
+evac_web_platform/src/main/resources/static/dist/
+evac_web_platform/src/main/resources/static/.vite/
+evac_web_platform/src/main/resources/static/package-lock.json
+evac_web_platform/src/main/resources/static/yarn.lock
+
+# Upload files
+evac_web_platform/upload/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/

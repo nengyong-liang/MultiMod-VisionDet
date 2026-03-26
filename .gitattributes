@@ -1,0 +1,47 @@
+# 1. 核心策略：所有文件默认按文本处理，统一使用 LF
+* text=auto eol=lf
+
+# 2. 显式定义文本文件类型（确保脚本、配置、标记语言等不被误判）
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.dockerignore text eol=lf
+*.env text eol=lf
+
+# 3. 严格定义二进制文件（防止 Git 尝试转换或 diff）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.jar binary
+*.war binary
+*.class binary
+
+# 4. 特殊处理：生成的文件或日志（不进行换行符转换，避免干扰构建）
+*.log binary
+*.min.js binary
+*.min.css binary
