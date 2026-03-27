@@ -1,0 +1,24 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fall\\02.mp4",
+    "video_name": "02.mp4",
+    "category": "fall",
+    "total_frames": 189,
+    "sample_interval": 10,
+    "fps": 29.67265876442421,
+    "danger_frames_count": 10,
+    "danger_rate": 55.55555555555556,
+    "event_types": {
+      "疑似摔倒": 10
+    },
+    "events_log": [
+      {
+        "frame": 80,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.6,
+            "torso_angle": 0,
+            "stage": "suspect",
+            "y_change": 172.5,
+            "is_low": 

@@ -1,0 +1,101 @@
+{
+  "video": "02",
+  "timestamp": "20260327_103741",
+  "fire": {
+    "detected_frames": 0,
+    "edge_filtered_pixels": 0,
+    "edge_mask_applied": false,
+    "sample_entries": []
+  },
+  "fall": {
+    "candidates_count": 6,
+    "sample_entries": [
+      {
+        "frame": 30,
+        "track_id": 1,
+        "height_shrink_ratio": 0.976,
+        "nose_y_norm": 0.385,
+        "fall_speed": -0.155,
+        "is_low": false,
+        "is_shrunk": false,
+        "is_falling": false,
+        "is_stationary": true,
+        "stage": "normal",
+        "detected": false
+      },
+      {
+        "frame": 40,
+        "track_id": 1,
+        "height_shrink_ratio": 0.882,
+        "nose_y_norm": 0.419,
+        "fall_speed": -0.182,
+        "is_low": false,
+        "is_shrunk": false,
+        "is_falling": false,
+        "is_stationary": true,
+        "stage": "normal",
+        "detected": false
+      },
+      {
+        "frame": 50,
+        "track_id": 1,
+        "height_shrink_ratio": 0.794,
+        "nose_y_norm": 0.477,
+        "fall_speed": -0.127,
+        "is_low": false,
+        "is_shrunk": true,
+        "is_falling": false,
+        "is_stationary": true,
+        "stage": "normal",
+        "detected": false
+      },
+      {
+        "frame": 60,
+        "track_id": 1,
+        "height_shrink_ratio": 0.644,
+        "nose_y_norm": 0.588,
+        "fall_speed": -0.208,
+        "is_low": true,
+        "is_shrunk": true,
+        "is_falling": false,
+        "is_stationary": true,
+        "stage": "normal",
+        "detected": true
+      },
+      {
+        "frame": 70,
+        "track_id": 1,
+        "height_shrink_ratio": 0.086,
+        "nose_y_norm": 0.862,
+        "fall_speed": 1.167,
+        "is_low": true,
+        "is_shrunk": true,
+        "is_falling": false,
+        "is_stationary": true,
+        "stage": "suspect",
+        "detected": true
+      },
+      {
+        "frame": 80,
+        "track_id": 1,
+        "height_shrink_ratio": -0.006,
+        "nose_y_norm": 0.934,
+        "fall_speed": 2.465,
+        "is_low": true,
+        "is_shrunk": true,
+        "is_falling": false,
+        "is_stationary": false,
+        "stage": "suspect",
+        "detected": true
+      }
+    ]
+  },
+  "fight": {
+    "candidates_count": 0,
+    "sample_entries": []
+  },
+  "pose": {
+    "detected_frames": 18,
+    "edge_filtered_persons": 10
+  }
+}

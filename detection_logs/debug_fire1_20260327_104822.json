@@ -1,0 +1,29 @@
+{
+  "video": "fire1",
+  "timestamp": "20260327_104822",
+  "fire": {
+    "detected_frames": 1,
+    "edge_filtered_pixels": 3822,
+    "edge_mask_applied": true,
+    "sample_entries": [
+      {
+        "frame": 520,
+        "regions": 6,
+        "total_area": 12891.5,
+        "score": 0.8962295081967214
+      }
+    ]
+  },
+  "fall": {
+    "candidates_count": 0,
+    "sample_entries": []
+  },
+  "fight": {
+    "candidates_count": 0,
+    "sample_entries": []
+  },
+  "pose": {
+    "detected_frames": 0,
+    "edge_filtered_persons": 0
+  }
+}

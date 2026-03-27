@@ -1,0 +1,1248 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fire\\fire1.mp4",
+    "video_name": "fire1.mp4",
+    "category": "fire",
+    "total_frames": 1729,
+    "sample_interval": 10,
+    "fps": 30.000173511703366,
+    "danger_frames_count": 65,
+    "danger_rate": 37.7906976744186,
+    "event_types": {
+      "疑似摔倒": 79,
+      "剧烈运动/冲突": 36,
+      "明火": 1
+    },
+    "events_log": [
+      {
+        "frame": 50,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.717,
+            "stage": "suspect",
+            "height_shrink": 0.391,
+            "fall_speed": -1.16
+          }
+        ]
+      },
+      {
+        "frame": 60,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.713,
+            "stage": "suspect",
+            "height_shrink": 0.378,
+            "fall_speed": -0.84
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 0.0,
+            "iou_overlap": 0.464,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 70,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.714,
+            "stage": "suspect",
+            "height_shrink": 0.379,
+            "fall_speed": -0.64
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 0.0,
+            "iou_overlap": 0.456,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 240,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.763,
+            "stage": "suspect",
+            "height_shrink": 0.543,
+            "fall_speed": -0.07
+          }
+        ]
+      },
+      {
+        "frame": 260,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.753,
+            "stage": "suspect",
+            "height_shrink": 0.51,
+            "fall_speed": -0.16
+          }
+        ]
+      },
+      {
+        "frame": 270,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.734,
+            "stage": "suspect",
+            "height_shrink": 0.445,
+            "fall_speed": 0.5
+          }
+        ]
+      },
+      {
+        "frame": 320,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "low_duration": 50,
+            "height_shrink": -0.225
+          }
+        ]
+      },
+      {
+        "frame": 390,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.753,
+            "stage": "suspect",
+            "height_shrink": 0.51,
+            "fall_speed": -0.09
+          }
+        ]
+      },
+      {
+        "frame": 400,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.778,
+            "stage": "suspect",
+            "height_shrink": 0.594,
+            "fall_speed": 0.06
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 9.3,
+            "iou_overlap": 0.694,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 410,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.73,
+            "stage": "suspect",
+            "height_shrink": 0.433,
+            "fall_speed": -0.06
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.676,
+            "stage": "suspect",
+            "height_shrink": 0.253,
+            "fall_speed": 0.15
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.787,
+            "min_person_distance": 117.7,
+            "iou_overlap": 0,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 490,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.766,
+            "stage": "suspect",
+            "height_shrink": 0.553,
+            "fall_speed": 0.03
+          }
+        ]
+      },
+      {
+        "frame": 510,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.714,
+            "stage": "suspect",
+            "height_shrink": 0.378,
+            "fall_speed": 0.12
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "low_duration": 100,
+            "height_shrink": 0.063
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 1.3,
+            "iou_overlap": 0.691,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 520,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.656,
+            "fire_ratio": 0.0037,
+            "fire_regions": 2,
+            "total_fire_area": 12891.5,
+            "fire_areas": [
+              9857.5,
+              3034.0
+            ],
+            "fire_areas_data": [
+              {
+                "bbox": [
+                  263,
+                  177,
+                  532,
+                  316
+                ],
+                "area": 9857.5
+              },
+              {
+                "bbox": [
+                  71,
+                  81,
+                  234,
+                  128
+                ],
+                "area": 3034.0
+              }
+            ],
+            "expansion_rate": 0.381
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.712,
+            "stage": "suspect",
+            "height_shrink": 0.374,
+            "fall_speed": 0.06
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 10.9,
+            "iou_overlap": 0.694,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 530,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.727,
+            "stage": "suspect",
+            "height_shrink": 0.422,
+            "fall_speed": 0.03
+          }
+        ]
+      },
+      {
+        "frame": 570,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.723,
+            "stage": "suspect",
+            "height_shrink": 0.41,
+            "fall_speed": 0.06
+          }
+        ]
+      },
+      {
+        "frame": 580,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "height_shrink": 0.332,
+            "fall_speed": 0.1
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.74,
+            "stage": "suspect",
+            "height_shrink": 0.467,
+            "fall_speed": -0.03
+          }
+        ]
+      },
+      {
+        "frame": 590,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.701,
+            "stage": "suspect",
+            "height_shrink": 0.337,
+            "fall_speed": 0.12
+          }
+        ]
+      },
+      {
+        "frame": 600,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.706,
+            "stage": "suspect",
+            "height_shrink": 0.354,
+            "fall_speed": 0.12
+          }
+        ]
+      },
+      {
+        "frame": 640,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.722,
+            "stage": "suspect",
+            "height_shrink": 0.406,
+            "fall_speed": 0.03
+          }
+        ]
+      },
+      {
+        "frame": 660,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.735,
+            "stage": "suspect",
+            "height_shrink": 0.45,
+            "fall_speed": -0.02
+          }
+        ]
+      },
+      {
+        "frame": 670,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.736,
+            "stage": "suspect",
+            "height_shrink": 0.453,
+            "fall_speed": -0.06
+          }
+        ]
+      },
+      {
+        "frame": 750,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.713,
+            "stage": "suspect",
+            "height_shrink": 0.377,
+            "fall_speed": 0.15
+          }
+        ]
+      },
+      {
+        "frame": 790,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.735,
+            "stage": "suspect",
+            "height_shrink": 0.449,
+            "fall_speed": 0.15
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.722,
+            "stage": "suspect",
+            "height_shrink": 0.407,
+            "fall_speed": 0.13
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 31.1,
+            "iou_overlap": 0.327,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 820,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.724,
+            "stage": "suspect",
+            "height_shrink": 0.415,
+            "fall_speed": 0.09
+          }
+        ]
+      },
+      {
+        "frame": 830,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.714,
+            "stage": "suspect",
+            "height_shrink": 0.379,
+            "fall_speed": 0.04
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "low_duration": 40,
+            "height_shrink": 0.16
+          }
+        ]
+      },
+      {
+        "frame": 860,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.753,
+            "stage": "suspect",
+            "height_shrink": 0.509,
+            "fall_speed": -0.02
+          }
+        ]
+      },
+      {
+        "frame": 900,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.754,
+            "stage": "suspect",
+            "height_shrink": 0.513,
+            "fall_speed": -0.03
+          }
+        ]
+      },
+      {
+        "frame": 910,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.77,
+            "stage": "suspect",
+            "height_shrink": 0.566,
+            "fall_speed": -0.01
+          }
+        ]
+      },
+      {
+        "frame": 930,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "low_duration": 70,
+            "height_shrink": 0.158
+          }
+        ]
+      },
+      {
+        "frame": 940,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "height_shrink": 0.333,
+            "fall_speed": 0.07
+          }
+        ]
+      },
+      {
+        "frame": 950,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 13.0,
+            "iou_overlap": 0.677,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 970,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.741,
+            "stage": "suspect",
+            "height_shrink": 0.47,
+            "fall_speed": -0.05
+          }
+        ]
+      },
+      {
+        "frame": 1030,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.733,
+            "stage": "suspect",
+            "height_shrink": 0.442,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.536,
+            "min_person_distance": 127.4,
+            "iou_overlap": 0.034,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1040,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.783,
+            "stage": "suspect",
+            "height_shrink": 0.61,
+            "fall_speed": -0.05
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.744,
+            "stage": "suspect",
+            "height_shrink": 0.48,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 91.4,
+            "iou_overlap": 0.061,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1050,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.74,
+            "stage": "suspect",
+            "height_shrink": 0.467,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 19.0,
+            "iou_overlap": 0.626,
+            "persons_count": 5
+          }
+        ]
+      },
+      {
+        "frame": 1060,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.739,
+            "stage": "suspect",
+            "height_shrink": 0.463,
+            "fall_speed": -0.03
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 25.8,
+            "iou_overlap": 0.176,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1070,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.739,
+            "stage": "suspect",
+            "height_shrink": 0.464,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.736,
+            "stage": "suspect",
+            "height_shrink": 0.453,
+            "fall_speed": -0.03
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 3.4,
+            "iou_overlap": 0.623,
+            "persons_count": 5
+          }
+        ]
+      },
+      {
+        "frame": 1080,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 25.4,
+            "iou_overlap": 0.118,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1090,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 22.5,
+            "iou_overlap": 0.13,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1100,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 0.0,
+            "iou_overlap": 0.157,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1160,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.761,
+            "stage": "suspect",
+            "height_shrink": 0.537,
+            "fall_speed": 0.03
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.661,
+            "stage": "suspect",
+            "height_shrink": 0.203,
+            "fall_speed": 0.06
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 1.1,
+            "iou_overlap": 0.634,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1170,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.756,
+            "stage": "suspect",
+            "height_shrink": 0.52,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.705,
+            "stage": "suspect",
+            "height_shrink": 0.349,
+            "fall_speed": 0.06
+          }
+        ]
+      },
+      {
+        "frame": 1180,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.756,
+            "stage": "suspect",
+            "height_shrink": 0.519,
+            "fall_speed": -0.03
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.8,
+            "stage": "suspect",
+            "height_shrink": 0.666,
+            "fall_speed": 0.45
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 46.6,
+            "iou_overlap": 0.116,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1190,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.745,
+            "stage": "suspect",
+            "height_shrink": 0.483,
+            "fall_speed": -0.01
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.747,
+            "stage": "suspect",
+            "height_shrink": 0.489,
+            "fall_speed": -0.01
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.952,
+            "min_person_distance": 47.7,
+            "iou_overlap": 0,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1200,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.74,
+            "stage": "suspect",
+            "height_shrink": 0.467,
+            "fall_speed": -0.01
+          }
+        ]
+      },
+      {
+        "frame": 1210,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.72,
+            "stage": "suspect",
+            "height_shrink": 0.401,
+            "fall_speed": 0.06
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.737,
+            "stage": "suspect",
+            "height_shrink": 0.456,
+            "fall_speed": -0.0
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.806,
+            "stage": "suspect",
+            "height_shrink": 0.686,
+            "fall_speed": 0.39
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 82.6,
+            "iou_overlap": 0.082,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1220,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.77,
+            "stage": "suspect",
+            "height_shrink": 0.565,
+            "fall_speed": -0.04
+          }
+        ]
+      },
+      {
+        "frame": 1230,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.701,
+            "stage": "suspect",
+            "height_shrink": 0.337,
+            "fall_speed": 0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.673,
+            "stage": "suspect",
+            "height_shrink": 0.245,
+            "fall_speed": 0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.808,
+            "stage": "suspect",
+            "height_shrink": 0.692,
+            "fall_speed": 0.32
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.89,
+            "min_person_distance": 97.8,
+            "iou_overlap": 0.026,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1250,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 45.0,
+            "iou_overlap": 0,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1260,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 37.0,
+            "iou_overlap": 0,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1270,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 0.0,
+            "iou_overlap": 0,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1300,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 32.5,
+            "iou_overlap": 0.041,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1450,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.524,
+            "min_person_distance": 129.8,
+            "iou_overlap": 0,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1460,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.529,
+            "min_person_distance": 128.8,
+            "iou_overlap": 0,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1470,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 0.0,
+            "iou_overlap": 0,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1550,
+        "events": [
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 2.7,
+            "iou_overlap": 0.68,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1570,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.696,
+            "stage": "suspect",
+            "height_shrink": 0.321,
+            "fall_speed": 0.05
+          }
+        ]
+      },
+      {
+        "frame": 1580,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.718,
+            "stage": "suspect",
+            "height_shrink": 0.393,
+            "fall_speed": 0.04
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 8.6,
+            "iou_overlap": 0.487,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1590,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.714,
+            "stage": "suspect",
+            "height_shrink": 0.381,
+            "fall_speed": 0.03
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.727,
+            "stage": "suspect",
+            "height_shrink": 0.423,
+            "fall_speed": -0.01
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.805,
+            "stage": "suspect",
+            "height_shrink": 0.683,
+            "fall_speed": 0.2
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.785,
+            "stage": "suspect",
+            "height_shrink": 0.615,
+            "fall_speed": 0.1
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 1.5,
+            "iou_overlap": 0.629,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1660,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.729,
+            "stage": "suspect",
+            "height_shrink": 0.429,
+            "fall_speed": 0.0
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.744,
+            "stage": "suspect",
+            "height_shrink": 0.481,
+            "fall_speed": -0.0
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.742,
+            "min_person_distance": 88.0,
+            "iou_overlap": 0,
+            "persons_count": 2
+          }
+        ]
+      },
+      {
+        "frame": 1670,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.742,
+            "stage": "suspect",
+            "height_shrink": 0.474,
+            "fall_speed": -0.0
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.784,
+            "stage": "suspect",
+            "height_shrink": 0.612,
+            "fall_speed": 0.17
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 18.6,
+            "iou_overlap": 0.522,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1690,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.746,
+            "stage": "suspect",
+            "height_shrink": 0.488,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.727,
+            "stage": "suspect",
+            "height_shrink": 0.422,
+            "fall_speed": 0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.819,
+            "stage": "suspect",
+            "height_shrink": 0.73,
+            "fall_speed": 0.16
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.772,
+            "stage": "suspect",
+            "height_shrink": 0.572,
+            "fall_speed": 0.22
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.781,
+            "min_person_distance": 80.4,
+            "iou_overlap": 0.008,
+            "persons_count": 4
+          }
+        ]
+      },
+      {
+        "frame": 1700,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.74,
+            "stage": "suspect",
+            "height_shrink": 0.468,
+            "fall_speed": -0.02
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.717,
+            "stage": "suspect",
+            "height_shrink": 0.391,
+            "fall_speed": 0.03
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 0.721,
+            "min_person_distance": 92.1,
+            "iou_overlap": 0.004,
+            "persons_count": 3
+          }
+        ]
+      },
+      {
+        "frame": 1710,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.735,
+            "stage": "suspect",
+            "height_shrink": 0.449,
+            "fall_speed": 0.03
+          }
+        ]
+      },
+      {
+        "frame": 1720,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.754,
+            "stage": "suspect",
+            "height_shrink": 0.512,
+            "fall_speed": -0.03
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.7,
+            "stage": "suspect",
+            "low_duration": 20,
+            "height_shrink": 0.127
+          },
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.747,
+            "stage": "suspect",
+            "height_shrink": 0.49,
+            "fall_speed": 0.24
+          },
+          {
+            "type": "剧烈运动/冲突",
+            "confidence": 1.0,
+            "min_person_distance": 67.3,
+            "iou_overlap": 0.061,
+            "persons_count": 6
+          }
+        ]
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000050_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000060_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000070_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000240_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000260_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000270_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000320_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000390_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000400_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000410_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000490_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000510_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000520_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000530_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000570_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000580_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000590_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000600_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000640_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000660_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000670_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000750_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000790_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000820_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000830_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000860_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000900_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000910_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000930_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000940_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000950_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame000970_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001030_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001040_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001050_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001060_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001070_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001080_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001090_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001100_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001160_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001170_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001180_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001190_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001200_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001210_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001220_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001230_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001250_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001260_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001270_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001300_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001450_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001460_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001470_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001550_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001570_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001580_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001590_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001660_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001670_剧烈运动\\冲突.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001690_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001700_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001710_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_111025\\fire1mp4\\fire1mp4_frame001720_剧烈运动\\冲突.jpg"
+    ]
+  }
+]

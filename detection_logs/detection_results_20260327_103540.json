@@ -1,0 +1,15 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fall\\02.mp4",
+    "video_name": "02.mp4",
+    "category": "fall",
+    "total_frames": 189,
+    "sample_interval": 10,
+    "fps": 29.67265876442421,
+    "danger_frames_count": 0,
+    "danger_rate": 0.0,
+    "event_types": {},
+    "events_log": [],
+    "saved_frames": []
+  }
+]

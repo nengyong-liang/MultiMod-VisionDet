@@ -1,0 +1,5 @@
+path: /content/data #dataset root dir
+train: /content/data/train/images
+val: /content/data/test/images
+nc: 36
+names: ['Again','No Sign Detected','Bad','Bathroom','Busy','Cat','Done','Eat','Father','Fine','Finish','Go','Good','Go To','Hello','Help','IloveYou','Learn','Like','Me','More','Mother','Need','No','Not','Please','Right','Sad','Same','Scared','So So','Thank You','Want','What','Wrong','Yes']

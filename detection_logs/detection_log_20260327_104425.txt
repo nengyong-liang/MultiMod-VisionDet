@@ -1,0 +1,233 @@
+[2026-03-27 10:4425] ================================================================================
+[2026-03-27 10:4425] 监控视频危险事件检测系统 v6 初始化 (调试版)
+[2026-03-27 10:4425] 抽帧间隔: 每 10 帧检测一次
+[2026-03-27 10:4425] 保存异常帧: 是
+[2026-03-27 10:4425] 调试日志: 启用
+[2026-03-27 10:4425] 调试模式: 仅处理视频 fire1.mp4
+[2026-03-27 10:4425] 调试模式: 仅处理类别 fire
+[2026-03-27 10:4425] 火焰边缘屏蔽: 5.0%
+[2026-03-27 10:4425] 人体边缘屏蔽: 10.0%
+[2026-03-27 10:4425] 摔倒身高缩水阈值: 0.8
+[2026-03-27 10:4425] 摔倒低位阈值: 0.55
+[2026-03-27 10:4425] ================================================================================
+[2026-03-27 10:4425] ================================================================================
+[2026-03-27 10:4425] 危险事件检测系统 v6 启动 (调试版)
+[2026-03-27 10:4425] ================================================================================
+[2026-03-27 10:4425] ----------------------------------------
+[2026-03-27 10:4425] 加载预训练模型...
+[2026-03-27 10:4425] [OK] YOLOv8n-Pose 姿态估计模型加载成功
+[2026-03-27 10:4425] ----------------------------------------
+[2026-03-27 10:4425] 
+>>> 发现危险类别文件夹: fire
+[2026-03-27 10:4425] --------------------------------------------------------------------------------
+[2026-03-27 10:4425] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fire\fire1.mp4
+[2026-03-27 10:4425] 预期危险类别: fire
+[2026-03-27 10:4425] 视频信息: 854x480, 30.0fps, 共1729帧
+[2026-03-27 10:4425] 将检测约 172 帧
+[2026-03-27 10:4425] 开始抽帧分析（v6调试版）...
+[2026-03-27 10:4426]   [保存异常帧] fire1mp4_frame000050_疑似摔倒.jpg
+[2026-03-27 10:4426]   [DEBUG-FALL] frame=60 track_id=1 shrink=0.622 nose_norm=0.554 speed=-0.838 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4426]   [保存异常帧] fire1mp4_frame000060_疑似摔倒.jpg
+[2026-03-27 10:4426]   [保存异常帧] fire1mp4_frame000070_疑似摔倒.jpg
+[2026-03-27 10:4426]   [DEBUG-FALL] frame=90 track_id=2 shrink=0.995 nose_norm=0.566 speed=0.178 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4426]   进度: 10/172 帧 (5%)
+[2026-03-27 10:4426]   [DEBUG-FALL] frame=120 track_id=0 shrink=0.515 nose_norm=0.502 speed=-0.645 low=False shrunk=True falling=False stage=normal
+[2026-03-27 10:4426]   [DEBUG-FALL] frame=150 track_id=0 shrink=0.509 nose_norm=0.500 speed=-0.489 low=False shrunk=True falling=False stage=normal
+[2026-03-27 10:4427]   进度: 20/172 帧 (11%)
+[2026-03-27 10:4427]   [DEBUG-FALL] frame=240 track_id=0 shrink=0.457 nose_norm=0.619 speed=-0.066 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4427]   [保存异常帧] fire1mp4_frame000240_疑似摔倒.jpg
+[2026-03-27 10:4427]   [保存异常帧] fire1mp4_frame000260_疑似摔倒.jpg
+[2026-03-27 10:4427]   [DEBUG-FALL] frame=270 track_id=1 shrink=0.555 nose_norm=0.833 speed=0.502 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4427]   [DEBUG-FALL] frame=270 track_id=2 shrink=0.836 nose_norm=0.526 speed=-0.145 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4427]   [保存异常帧] fire1mp4_frame000270_疑似摔倒.jpg
+[2026-03-27 10:4427]   进度: 30/172 帧 (17%)
+[2026-03-27 10:4427]   [DEBUG-FALL] frame=300 track_id=0 shrink=1.342 nose_norm=0.559 speed=0.314 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4427]   [保存异常帧] fire1mp4_frame000320_疑似摔倒.jpg
+[2026-03-27 10:4427]   [DEBUG-FIRE] frame=330 fire_ratio=0.0017 regions=1 total_area=5439
+[2026-03-27 10:4428]   [DEBUG-POSE] frame=340 检测到1人 边缘过滤1人
+[2026-03-27 10:4428]   [DEBUG-FALL] frame=390 track_id=0 shrink=0.490 nose_norm=0.581 speed=-0.090 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4428]   [保存异常帧] fire1mp4_frame000390_疑似摔倒.jpg
+[2026-03-27 10:4428]   进度: 40/172 帧 (23%)
+[2026-03-27 10:4428]   [保存异常帧] fire1mp4_frame000400_疑似摔倒.jpg
+[2026-03-27 10:4428]   [保存异常帧] fire1mp4_frame000410_疑似摔倒.jpg
+[2026-03-27 10:4428]   [DEBUG-POSE] frame=460 检测到0人 边缘过滤1人
+[2026-03-27 10:4428]   [DEBUG-FIRE] frame=480 fire_ratio=0.0013 regions=2 total_area=5972
+[2026-03-27 10:4428]   [DEBUG-POSE] frame=480 检测到0人 边缘过滤1人
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000490_疑似摔倒.jpg
+[2026-03-27 10:4429]   进度: 50/172 帧 (29%)
+[2026-03-27 10:4429]   [边缘过滤] frame=500 track_id=10 center=(499,432) 位于画面边缘
+[2026-03-27 10:4429]   [DEBUG-POSE] frame=500 检测到0人 边缘过滤1人
+[2026-03-27 10:4429]   [DEBUG-FIRE] frame=510 fire_ratio=0.0019 regions=2 total_area=5316
+[2026-03-27 10:4429]   [DEBUG-FALL] frame=510 track_id=0 shrink=0.622 nose_norm=0.752 speed=0.120 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4429]   [DEBUG-FALL] frame=510 track_id=1 shrink=1.559 nose_norm=0.322 speed=0.157 low=False shrunk=False falling=False stage=suspect
+[2026-03-27 10:4429]   [DEBUG-FALL] frame=510 track_id=2 shrink=0.937 nose_norm=0.755 speed=0.191 low=True shrunk=False falling=False stage=suspect
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000510_疑似摔倒.jpg
+[2026-03-27 10:4429]   [危险检测] 帧520: 明火 - 置信度:0.896 区域数:6 总面积:12892
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000520_明火.jpg
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000530_疑似摔倒.jpg
+[2026-03-27 10:4429]   [DEBUG-FALL] frame=570 track_id=0 shrink=0.590 nose_norm=0.700 speed=0.056 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000570_疑似摔倒.jpg
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000580_疑似摔倒.jpg
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000590_疑似摔倒.jpg
+[2026-03-27 10:4429]   进度: 60/172 帧 (34%)
+[2026-03-27 10:4429]   [DEBUG-FALL] frame=600 track_id=0 shrink=0.646 nose_norm=0.762 speed=0.117 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000600_疑似摔倒.jpg
+[2026-03-27 10:4429]   [保存异常帧] fire1mp4_frame000640_疑似摔倒.jpg
+[2026-03-27 10:4430]   [DEBUG-FALL] frame=660 track_id=0 shrink=0.550 nose_norm=0.610 speed=-0.024 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4430]   [保存异常帧] fire1mp4_frame000660_疑似摔倒.jpg
+[2026-03-27 10:4430]   [保存异常帧] fire1mp4_frame000670_疑似摔倒.jpg
+[2026-03-27 10:4430]   进度: 70/172 帧 (40%)
+[2026-03-27 10:4430]   [DEBUG-FALL] frame=750 track_id=0 shrink=0.623 nose_norm=0.794 speed=0.150 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4430]   [保存异常帧] fire1mp4_frame000750_疑似摔倒.jpg
+[2026-03-27 10:4430]   [保存异常帧] fire1mp4_frame000790_疑似摔倒.jpg
+[2026-03-27 10:4431]   进度: 80/172 帧 (46%)
+[2026-03-27 10:4431]   [边缘过滤] frame=800 track_id=1 center=(75,237) 位于画面边缘
+[2026-03-27 10:4431]   [DEBUG-POSE] frame=800 检测到1人 边缘过滤1人
+[2026-03-27 10:4431]   [DEBUG-POSE] frame=820 检测到2人 边缘过滤1人
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000820_疑似摔倒.jpg
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000830_疑似摔倒.jpg
+[2026-03-27 10:4431]   [DEBUG-FALL] frame=840 track_id=18 shrink=0.845 nose_norm=0.671 speed=-0.209 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4431]   [DEBUG-POSE] frame=860 检测到1人 边缘过滤1人
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000860_疑似摔倒.jpg
+[2026-03-27 10:4431]   进度: 90/172 帧 (52%)
+[2026-03-27 10:4431]   [DEBUG-FALL] frame=900 track_id=0 shrink=0.487 nose_norm=0.579 speed=-0.032 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000900_疑似摔倒.jpg
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000910_疑似摔倒.jpg
+[2026-03-27 10:4431]   [DEBUG-FIRE] frame=930 fire_ratio=0.0012 regions=1 total_area=3466
+[2026-03-27 10:4431]   [DEBUG-FALL] frame=930 track_id=0 shrink=1.489 nose_norm=0.235 speed=-0.141 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4431]   [DEBUG-FALL] frame=930 track_id=1 shrink=0.842 nose_norm=0.735 speed=0.100 low=True shrunk=False falling=False stage=suspect
+[2026-03-27 10:4431]   [DEBUG-FALL] frame=930 track_id=2 shrink=0.799 nose_norm=0.311 speed=-0.156 low=False shrunk=True falling=False stage=normal
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000930_疑似摔倒.jpg
+[2026-03-27 10:4431]   [DEBUG-POSE] frame=940 检测到2人 边缘过滤1人
+[2026-03-27 10:4431]   [保存异常帧] fire1mp4_frame000940_疑似摔倒.jpg
+[2026-03-27 10:4432]   [边缘过滤] frame=950 track_id=1 center=(74,205) 位于画面边缘
+[2026-03-27 10:4432]   [DEBUG-POSE] frame=960 检测到2人 边缘过滤1人
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=960 track_id=0 shrink=1.459 nose_norm=0.233 speed=-0.129 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=960 track_id=1 shrink=0.486 nose_norm=0.311 speed=-0.172 low=False shrunk=True falling=False stage=normal
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame000970_疑似摔倒.jpg
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=990 track_id=22 shrink=0.991 nose_norm=0.537 speed=-0.024 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4432]   进度: 100/172 帧 (58%)
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1020 track_id=0 shrink=1.776 nose_norm=0.209 speed=-0.106 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1020 track_id=1 shrink=0.559 nose_norm=0.541 speed=-0.045 low=False shrunk=True falling=False stage=normal
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame001030_疑似摔倒.jpg
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame001040_疑似摔倒.jpg
+[2026-03-27 10:4432]   [边缘过滤] frame=1050 track_id=4 center=(80,254) 位于画面边缘
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1050 track_id=0 shrink=0.533 nose_norm=0.603 speed=-0.024 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1050 track_id=1 shrink=1.301 nose_norm=0.262 speed=-0.112 low=False shrunk=False falling=False stage=suspect
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1050 track_id=2 shrink=2.189 nose_norm=0.355 speed=-0.053 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4432]   [DEBUG-FALL] frame=1050 track_id=3 shrink=1.244 nose_norm=0.275 speed=1.126 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame001050_疑似摔倒.jpg
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame001060_疑似摔倒.jpg
+[2026-03-27 10:4432]   [保存异常帧] fire1mp4_frame001070_疑似摔倒.jpg
+[2026-03-27 10:4433]   进度: 110/172 帧 (63%)
+[2026-03-27 10:4433]   [DEBUG-FALL] frame=1110 track_id=40 shrink=0.919 nose_norm=0.610 speed=0.116 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001160_疑似摔倒.jpg
+[2026-03-27 10:4433]   [DEBUG-FALL] frame=1170 track_id=0 shrink=1.341 nose_norm=0.512 speed=0.070 low=False shrunk=False falling=False stage=suspect
+[2026-03-27 10:4433]   [DEBUG-FALL] frame=1170 track_id=1 shrink=0.480 nose_norm=0.620 speed=-0.015 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4433]   [DEBUG-FALL] frame=1170 track_id=2 shrink=0.651 nose_norm=0.712 speed=0.061 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001170_疑似摔倒.jpg
+[2026-03-27 10:4433]   [DEBUG-POSE] frame=1180 检测到3人 边缘过滤2人
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001180_疑似摔倒.jpg
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001190_疑似摔倒.jpg
+[2026-03-27 10:4433]   进度: 120/172 帧 (69%)
+[2026-03-27 10:4433]   [边缘过滤] frame=1200 track_id=0 center=(728,450) 位于画面边缘
+[2026-03-27 10:4433]   [DEBUG-POSE] frame=1200 检测到1人 边缘过滤1人
+[2026-03-27 10:4433]   [DEBUG-FALL] frame=1200 track_id=1 shrink=0.533 nose_norm=0.611 speed=-0.015 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001200_疑似摔倒.jpg
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001210_疑似摔倒.jpg
+[2026-03-27 10:4433]   [DEBUG-POSE] frame=1220 检测到2人 边缘过滤1人
+[2026-03-27 10:4433]   [保存异常帧] fire1mp4_frame001220_疑似摔倒.jpg
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1230 track_id=0 shrink=0.663 nose_norm=0.686 speed=0.023 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1230 track_id=1 shrink=2.168 nose_norm=0.272 speed=0.026 low=False shrunk=False falling=False stage=suspect
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1230 track_id=2 shrink=0.755 nose_norm=0.646 speed=0.020 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1230 track_id=3 shrink=0.308 nose_norm=0.561 speed=0.319 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4434]   [保存异常帧] fire1mp4_frame001230_疑似摔倒.jpg
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1260 track_id=65 shrink=1.124 nose_norm=0.175 speed=-0.872 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1260 track_id=22 shrink=0.844 nose_norm=0.562 speed=-0.009 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1260 track_id=52 shrink=1.013 nose_norm=0.533 speed=-0.290 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-POSE] frame=1280 检测到1人 边缘过滤1人
+[2026-03-27 10:4434]   [DEBUG-FIRE] frame=1290 fire_ratio=0.0012 regions=1 total_area=3448
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1290 track_id=22 shrink=1.077 nose_norm=0.824 speed=0.256 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1290 track_id=52 shrink=1.016 nose_norm=0.533 speed=-0.234 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   进度: 130/172 帧 (75%)
+[2026-03-27 10:4434]   [边缘过滤] frame=1300 track_id=65 center=(62,262) 位于画面边缘
+[2026-03-27 10:4434]   [DEBUG-POSE] frame=1300 检测到2人 边缘过滤1人
+[2026-03-27 10:4434]   [DEBUG-FIRE] frame=1320 fire_ratio=0.0022 regions=1 total_area=3755
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1320 track_id=52 shrink=1.020 nose_norm=0.530 speed=-0.204 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4434]   [DEBUG-FALL] frame=1350 track_id=52 shrink=0.986 nose_norm=0.535 speed=-0.164 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1380 track_id=52 shrink=0.998 nose_norm=0.529 speed=-0.164 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   进度: 140/172 帧 (81%)
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1410 track_id=52 shrink=1.037 nose_norm=0.525 speed=-0.145 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   [DEBUG-POSE] frame=1440 检测到1人 边缘过滤1人
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1440 track_id=52 shrink=1.035 nose_norm=0.525 speed=-0.129 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   [边缘过滤] frame=1450 track_id=80 center=(82,258) 位于画面边缘
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1470 track_id=52 shrink=1.034 nose_norm=0.524 speed=-0.117 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1470 track_id=82 shrink=1.096 nose_norm=0.524 speed=-1.441 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4435]   进度: 150/172 帧 (87%)
+[2026-03-27 10:4435]   [DEBUG-FALL] frame=1500 track_id=52 shrink=1.049 nose_norm=0.516 speed=-0.119 low=False shrunk=False falling=False stage=normal
+[2026-03-27 10:4436]   [DEBUG-POSE] frame=1520 检测到1人 边缘过滤3人
+[2026-03-27 10:4436]   [DEBUG-POSE] frame=1540 检测到1人 边缘过滤1人
+[2026-03-27 10:4436]   [保存异常帧] fire1mp4_frame001570_疑似摔倒.jpg
+[2026-03-27 10:4436]   [DEBUG-POSE] frame=1580 检测到3人 边缘过滤2人
+[2026-03-27 10:4436]   [保存异常帧] fire1mp4_frame001580_疑似摔倒.jpg
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1590 track_id=0 shrink=0.619 nose_norm=0.736 speed=0.031 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1590 track_id=1 shrink=0.577 nose_norm=0.615 speed=-0.005 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1590 track_id=3 shrink=0.317 nose_norm=0.633 speed=0.201 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1590 track_id=5 shrink=0.385 nose_norm=0.635 speed=0.103 low=True shrunk=True falling=False stage=normal
+[2026-03-27 10:4436]   [保存异常帧] fire1mp4_frame001590_疑似摔倒.jpg
+[2026-03-27 10:4436]   进度: 160/172 帧 (93%)
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1620 track_id=91 shrink=1.013 nose_norm=0.726 speed=-0.009 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4436]   [DEBUG-FALL] frame=1650 track_id=92 shrink=1.086 nose_norm=0.652 speed=0.337 low=True shrunk=False falling=False stage=normal
+[2026-03-27 10:4436]   [保存异常帧] fire1mp4_frame001660_疑似摔倒.jpg
+[2026-03-27 10:4436]   [保存异常帧] fire1mp4_frame001670_疑似摔倒.jpg
+[2026-03-27 10:4437]   [DEBUG-POSE] frame=1680 检测到1人 边缘过滤1人
+[2026-03-27 10:4437]   [保存异常帧] fire1mp4_frame001690_疑似摔倒.jpg
+[2026-03-27 10:4437]   进度: 170/172 帧 (98%)
+[2026-03-27 10:4437]   [边缘过滤] frame=1700 track_id=3 center=(67,252) 位于画面边缘
+[2026-03-27 10:4437]   [DEBUG-POSE] frame=1700 检测到3人 边缘过滤1人
+[2026-03-27 10:4437]   [保存异常帧] fire1mp4_frame001700_疑似摔倒.jpg
+[2026-03-27 10:4437]   [DEBUG-FALL] frame=1710 track_id=0 shrink=0.551 nose_norm=0.734 speed=0.031 low=True shrunk=True falling=False stage=suspect
+[2026-03-27 10:4437]   [保存异常帧] fire1mp4_frame001710_疑似摔倒.jpg
+[2026-03-27 10:4437]   [DEBUG-POSE] frame=1720 检测到6人 边缘过滤2人
+[2026-03-27 10:4437]   [保存异常帧] fire1mp4_frame001720_疑似摔倒.jpg
+[2026-03-27 10:4437] 视频处理完成! 共检测到 53 个危险帧
+[2026-03-27 10:4437] 保存异常帧数量: 53
+[2026-03-27 10:4437] ================================================================================
+[2026-03-27 10:4437] 检测报告摘要
+[2026-03-27 10:4437] ================================================================================
+[2026-03-27 10:4437] 视频文件: fire1.mp4
+[2026-03-27 10:4437] 预期危险类别: fire
+[2026-03-27 10:4437] 总帧数: 1729, 帧率: 30.0 FPS
+[2026-03-27 10:4437] 抽帧间隔: 每 10 帧
+[2026-03-27 10:4437] 检测到危险帧数: 53 (30.81%)
+[2026-03-27 10:4437] 各类危险事件统计:
+[2026-03-27 10:4437]   - 疑似摔倒: 79 次
+[2026-03-27 10:4437]   - 明火: 1 次
+[2026-03-27 10:4437] 保存异常帧数量: 53
+[2026-03-27 10:4437] ================================================================================
+[2026-03-27 10:4437] [DEBUG] 调试信息已保存: debug_fire1_20260327_104425.json
+[2026-03-27 10:4437] --------------------------------------------------------------------------------
+[2026-03-27 10:4437] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fire\fire2.mp4
+[2026-03-27 10:4437] 预期危险类别: fire
+[2026-03-27 10:4437] [跳过] 不在调试视频范围内: fire2.mp4
+[2026-03-27 10:4437] [DEBUG] 调试信息已保存: debug_fire2_20260327_104425.json
+[2026-03-27 10:4437] 
+所有检测完成! 结果已保存到: d:\1_LNY\code\MultiMod-VisionDet\detection_logs\detection_results_20260327_104425.json
+[2026-03-27 10:4437] 异常帧图片保存目录: d:\1_LNY\code\MultiMod-VisionDet\detection_logs\detected_frames_20260327_104425
+[2026-03-27 10:4437] 
+================================================================================
+[2026-03-27 10:4437] 最终检测结果汇总
+[2026-03-27 10:4437] ================================================================================
+[2026-03-27 10:4437] 
+视频: fire1.mp4
+[2026-03-27 10:4437]   预期类别: fire
+[2026-03-27 10:4437]   危险帧数: 53 (30.81%)
+[2026-03-27 10:4437]   - 疑似摔倒: 79次
+[2026-03-27 10:4437]   - 明火: 1次
+[2026-03-27 10:4437]   保存帧数: 53
+[2026-03-27 10:4437] 
+总体统计:
+[2026-03-27 10:4437]   处理视频数: 1
+[2026-03-27 10:4437]   检测到危险的视频数: 1
+[2026-03-27 10:4437]   总危险帧数: 53
+[2026-03-27 10:4437]   保存异常帧总数: 53

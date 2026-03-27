@@ -1,0 +1,58 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fall\\02.mp4",
+    "video_name": "02.mp4",
+    "category": "fall",
+    "total_frames": 189,
+    "sample_interval": 10,
+    "fps": 29.67265876442421,
+    "danger_frames_count": 3,
+    "danger_rate": 16.666666666666664,
+    "event_types": {
+      "疑似摔倒": 3
+    },
+    "events_log": [
+      {
+        "frame": 60,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.707,
+            "stage": "suspect",
+            "height_shrink": 0.356,
+            "fall_speed": -0.21
+          }
+        ]
+      },
+      {
+        "frame": 70,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.874,
+            "stage": "suspect",
+            "height_shrink": 0.914,
+            "fall_speed": 1.17
+          }
+        ]
+      },
+      {
+        "frame": 80,
+        "events": [
+          {
+            "type": "疑似摔倒",
+            "confidence": 0.9,
+            "stage": "suspect",
+            "height_shrink": 1.006,
+            "fall_speed": 2.46
+          }
+        ]
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_103741\\fall\\02mp4_frame000060_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_103741\\fall\\02mp4_frame000070_疑似摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_103741\\fall\\02mp4_frame000080_疑似摔倒.jpg"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fire\\fire1.mp4",
+    "video_name": "fire1.mp4",
+    "category": "fire",
+    "total_frames": 1729,
+    "sample_interval": 10,
+    "fps": 30.000173511703366,
+    "danger_frames_count": 1,
+    "danger_rate": 0.5813953488372093,
+    "event_types": {
+      "明火": 1
+    },
+    "events_log": [
+      {
+        "frame": 520,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.656,
+            "fire_ratio": 0.0037,
+            "fire_regions": 2,
+            "total_fire_area": 12891.5,
+            "fire_areas": [
+              9857.5,
+              3034.0
+            ],
+            "fire_areas_data": [
+              {
+                "bbox": [
+                  263,
+                  177,
+                  532,
+                  316
+                ],
+                "area": 9857.5
+              },
+              {
+                "bbox": [
+                  71,
+                  81,
+                  234,
+                  128
+                ],
+                "area": 3034.0
+              }
+            ],
+            "expansion_rate": 0.381
+          }
+        ]
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_110008\\fire\\fire1mp4_frame000520_明火.jpg"
+    ]
+  }
+]

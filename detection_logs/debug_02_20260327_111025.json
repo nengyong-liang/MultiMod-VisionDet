@@ -1,0 +1,22 @@
+{
+  "video": "02",
+  "timestamp": "20260327_111025",
+  "fire": {
+    "detected_frames": 0,
+    "edge_filtered_pixels": 0,
+    "edge_mask_applied": false,
+    "sample_entries": []
+  },
+  "fall": {
+    "candidates_count": 0,
+    "sample_entries": []
+  },
+  "fight": {
+    "candidates_count": 0,
+    "sample_entries": []
+  },
+  "pose": {
+    "detected_frames": 0,
+    "edge_filtered_persons": 0
+  }
+}
