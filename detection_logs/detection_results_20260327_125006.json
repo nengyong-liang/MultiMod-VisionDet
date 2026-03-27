@@ -1,0 +1,3638 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fire\\fire1.mp4",
+    "video_name": "fire1.mp4",
+    "category": "fire",
+    "total_frames": 1729,
+    "sample_interval": 5,
+    "fps": 30.000173511703366,
+    "danger_frames_count": 256,
+    "danger_rate": 74.20289855072464,
+    "event_types": {
+      "明火": 255,
+      "摔倒": 50
+    },
+    "events_log": [
+      {
+        "frame": 5,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.34,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.524,
+            "class_name": "fall",
+            "box": [
+              8.287678718566895,
+              145.95545959472656,
+              444.83331298828125,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 10,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.366,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.505,
+            "class_name": "fall",
+            "box": [
+              8.327912330627441,
+              145.23931884765625,
+              443.726806640625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 15,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.394,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.516,
+            "class_name": "fall",
+            "box": [
+              8.147392272949219,
+              146.2039337158203,
+              442.4098205566406,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 20,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.389,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.483,
+            "class_name": "fall",
+            "box": [
+              7.97224760055542,
+              146.59017944335938,
+              438.98651123046875,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 25,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.421,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.488,
+            "class_name": "fall",
+            "box": [
+              8.022090911865234,
+              147.6136474609375,
+              439.5209045410156,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.487,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.462,
+            "class_name": "fall",
+            "box": [
+              8.055686950683594,
+              144.70565795898438,
+              441.30682373046875,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 35,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.452,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.492,
+            "class_name": "fall",
+            "box": [
+              7.901065349578857,
+              146.83688354492188,
+              444.7042236328125,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 40,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.481,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.471,
+            "class_name": "fall",
+            "box": [
+              8.081625938415527,
+              145.1474151611328,
+              444.1267395019531,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 45,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.472,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.448,
+            "class_name": "fall",
+            "box": [
+              8.099462509155273,
+              144.4287109375,
+              443.75738525390625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 50,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.401,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.438,
+            "class_name": "fall",
+            "box": [
+              7.983975410461426,
+              150.80612182617188,
+              441.5459899902344,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 55,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.482,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.413,
+            "class_name": "fall",
+            "box": [
+              7.79254150390625,
+              149.5330810546875,
+              441.7801818847656,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 60,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.441,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 65,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.535,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 70,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.513,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 75,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.477,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 80,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.507,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 85,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.446,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 90,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.456,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 95,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.483,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 100,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.523,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 105,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.483,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.411,
+            "class_name": "fall",
+            "box": [
+              8.363625526428223,
+              128.8351593017578,
+              443.9306335449219,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 110,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.475,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.429,
+            "class_name": "fall",
+            "box": [
+              8.27025032043457,
+              140.09390258789062,
+              440.4232177734375,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 115,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.512,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 120,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.524,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.431,
+            "class_name": "fall",
+            "box": [
+              8.627259254455566,
+              147.4386749267578,
+              433.4081726074219,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 125,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.539,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 130,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.479,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 135,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.477,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 140,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.5,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 145,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.495,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 150,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.488,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 155,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.482,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.419,
+            "class_name": "fall",
+            "box": [
+              8.167956352233887,
+              155.35044860839844,
+              433.7264404296875,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 160,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.414,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.435,
+            "class_name": "fall",
+            "box": [
+              8.068228721618652,
+              155.15025329589844,
+              433.85699462890625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 165,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.422,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.416,
+            "class_name": "fall",
+            "box": [
+              7.864293575286865,
+              155.51055908203125,
+              432.4830627441406,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 170,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.42,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 175,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.465,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 180,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.429,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.547,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              34.27838897705078,
+              136.759765625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 185,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.413,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.515,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              34.75756072998047,
+              136.2308807373047,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 190,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.43,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.514,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              34.28413009643555,
+              135.95460510253906,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 195,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.426,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.469,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              40.09257888793945,
+              136.72120666503906,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 200,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.506,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.499,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              38.871734619140625,
+              135.65074157714844,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 205,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.432,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 210,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.467,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 215,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.465,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 220,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.512,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.449,
+            "class_name": "fall",
+            "box": [
+              6.987469673156738,
+              148.87704467773438,
+              446.8590087890625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 225,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.474,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.485,
+            "class_name": "non-fall",
+            "box": [
+              0.9728868007659912,
+              34.79124069213867,
+              122.08364868164062,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 230,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.453,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 235,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.417,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.427,
+            "class_name": "fall",
+            "box": [
+              0.0,
+              166.53720092773438,
+              449.519287109375,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 240,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.441,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.408,
+            "class_name": "fall",
+            "box": [
+              5.980865478515625,
+              149.24850463867188,
+              446.67144775390625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 245,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.457,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 250,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.42,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 255,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.401,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 260,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.397,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 270,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.453,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 275,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.332,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 280,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.872,
+            "fire_ratio": 0.0174,
+            "regions": 2,
+            "method": "hsv"
+          }
+        ]
+      },
+      {
+        "frame": 285,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.662,
+            "fire_ratio": 0.0132,
+            "regions": 1,
+            "method": "hsv"
+          }
+        ]
+      },
+      {
+        "frame": 290,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.628,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 300,
+        "events": [
+          {
+            "type": "摔倒",
+            "confidence": 0.401,
+            "class_name": "fall",
+            "box": [
+              9.292328834533691,
+              155.7991180419922,
+              440.7983093261719,
+              479.2166442871094
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 305,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.927,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 310,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.912,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 315,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.875,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 320,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.789,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 325,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.779,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 330,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.819,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 335,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.822,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 340,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.815,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 345,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.811,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 350,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.778,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 355,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.767,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 360,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.781,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 365,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.751,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 370,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.709,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.41,
+            "class_name": "fall",
+            "box": [
+              335.7784118652344,
+              185.95111083984375,
+              854.0,
+              460.4447021484375
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 375,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.704,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 380,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.693,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.485,
+            "class_name": "fall",
+            "box": [
+              9.954629898071289,
+              139.90475463867188,
+              472.29278564453125,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 385,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.689,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.42,
+            "class_name": "fall",
+            "box": [
+              10.239561080932617,
+              145.09271240234375,
+              476.84259033203125,
+              460.5476379394531
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 390,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.682,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 395,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.654,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 400,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.667,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 405,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.58,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 410,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.57,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 415,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.478,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.433,
+            "class_name": "fall",
+            "box": [
+              9.475170135498047,
+              155.2356414794922,
+              471.1339416503906,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 420,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.355,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.41,
+            "class_name": "fall",
+            "box": [
+              9.202496528625488,
+              146.31935119628906,
+              476.8963928222656,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 425,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.769,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.444,
+            "class_name": "fall",
+            "box": [
+              9.435506820678711,
+              114.46688079833984,
+              462.2755126953125,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 430,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.498,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.402,
+            "class_name": "fall",
+            "box": [
+              9.392382621765137,
+              128.13482666015625,
+              474.18133544921875,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 435,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.896,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 440,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.903,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 445,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.934,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 450,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.929,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 455,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.876,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 460,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.854,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 465,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.91,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 470,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.784,
+            "fire_count": 4,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.493,
+            "class_name": "non-fall",
+            "box": [
+              0.19939474761486053,
+              65.49400329589844,
+              155.03326416015625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 475,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.86,
+            "fire_count": 5,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.438,
+            "class_name": "non-fall",
+            "box": [
+              0.5024979710578918,
+              74.80233001708984,
+              166.03042602539062,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 480,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.822,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 485,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.869,
+            "fire_count": 6,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 490,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.869,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 495,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.809,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 500,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.822,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 505,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.793,
+            "fire_count": 5,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.47,
+            "class_name": "non-fall",
+            "box": [
+              266.9660339355469,
+              29.591949462890625,
+              499.10784912109375,
+              355.86334228515625
+            ]
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.451,
+            "class_name": "fall",
+            "box": [
+              266.32086181640625,
+              162.60208129882812,
+              697.7536010742188,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 510,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.747,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 515,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.844,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 520,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.825,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 525,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.796,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 530,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.851,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 535,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.839,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 540,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.909,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.59,
+            "class_name": "non-fall",
+            "box": [
+              0.3086923062801361,
+              24.353933334350586,
+              177.5250244140625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 545,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.871,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.627,
+            "class_name": "non-fall",
+            "box": [
+              0.15189266204833984,
+              23.719688415527344,
+              172.30624389648438,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 550,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.895,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.694,
+            "class_name": "non-fall",
+            "box": [
+              0.1591615229845047,
+              23.523164749145508,
+              172.2285614013672,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 555,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.918,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.627,
+            "class_name": "non-fall",
+            "box": [
+              0.31842485070228577,
+              22.09231948852539,
+              177.8969268798828,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 560,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.926,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.454,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              19.74437713623047,
+              161.6239013671875,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 565,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.869,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.709,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              20.400774002075195,
+              156.95484924316406,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 570,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.875,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.517,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              29.198942184448242,
+              159.09176635742188,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 575,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.881,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 580,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.82,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 585,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.728,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 590,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.9,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.433,
+            "class_name": "fall",
+            "box": [
+              324.323486328125,
+              204.3162384033203,
+              854.0,
+              474.0447998046875
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 595,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.863,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 600,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.896,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 605,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.847,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 610,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.933,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.466,
+            "class_name": "non-fall",
+            "box": [
+              0.08863120526075363,
+              58.304466247558594,
+              158.6730194091797,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 615,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.824,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 620,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.918,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.417,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              65.53655242919922,
+              150.6614227294922,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 625,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.842,
+            "fire_count": 1,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.505,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              35.81405258178711,
+              152.41188049316406,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 630,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.908,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 635,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.919,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 640,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.912,
+            "fire_count": 2,
+            "class_name": "fire"
+          },
+          {
+            "type": "摔倒",
+            "confidence": 0.5,
+            "class_name": "non-fall",
+            "box": [
+              0.0,
+              42.92723083496094,
+              150.23883056640625,
+              480.0
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 645,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.839,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 650,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.807,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 655,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.864,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 660,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.92,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 665,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.675,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 670,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.846,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 675,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.322,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 680,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.878,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 685,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.561,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 690,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.405,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 695,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.368,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 700,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.642,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 705,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.431,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 710,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.447,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 715,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.477,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 725,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.257,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 730,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.382,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 740,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.751,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 745,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.455,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 750,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.345,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 760,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.416,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 765,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.463,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 770,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.653,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 775,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.867,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 780,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.481,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 785,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.624,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 790,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.668,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 795,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.682,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 800,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.693,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 805,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.638,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 810,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.67,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 815,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.864,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 820,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.54,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 825,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.499,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 830,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.536,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 835,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.51,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 840,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.509,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 845,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.574,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 850,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.449,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 855,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.466,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 860,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.451,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 865,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.643,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 870,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.725,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 875,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.638,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 880,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.586,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 885,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.69,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 890,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.592,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 895,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.587,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 900,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.748,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 905,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.638,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 910,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.83,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 915,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.596,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 920,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.598,
+            "fire_count": 5,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 925,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.613,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 930,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.561,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 935,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.608,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 940,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.676,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 945,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.588,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 950,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.66,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 955,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.615,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 960,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.625,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 965,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.588,
+            "fire_count": 4,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 970,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.608,
+            "fire_count": 3,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 980,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.331,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 990,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.318,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 995,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.358,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1000,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.568,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1005,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.627,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1010,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.753,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1015,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.723,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1020,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.705,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1025,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.684,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1030,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.683,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1035,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.708,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1040,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.7,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1045,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.718,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1050,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.697,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1055,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.719,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1060,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.679,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1065,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.678,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1070,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.673,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1075,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.677,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1080,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.675,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1085,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.667,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1090,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.675,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1095,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.559,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1100,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.274,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1105,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.35,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1110,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.316,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1115,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.315,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1120,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.271,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1125,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.27,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1130,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.306,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1135,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.349,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1140,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.257,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1145,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.289,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1150,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.335,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1155,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.345,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1160,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.377,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1165,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.331,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1170,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.311,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1175,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.304,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1185,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.35,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1220,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.308,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1225,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.359,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1230,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.349,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1375,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.346,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1445,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.292,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1530,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.433,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1550,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.402,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1560,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.434,
+            "fire_count": 2,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1565,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.614,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1605,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.251,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1635,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.263,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1640,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.254,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1650,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.251,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1655,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.275,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1660,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.267,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1665,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.269,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1670,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.298,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1675,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.277,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1680,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.273,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1685,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.278,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1690,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.271,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1700,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.257,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1705,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.257,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1710,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.267,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1715,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.259,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1720,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.267,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      },
+      {
+        "frame": 1725,
+        "events": [
+          {
+            "type": "明火",
+            "confidence": 0.265,
+            "fire_count": 1,
+            "class_name": "fire"
+          }
+        ]
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000005_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000010_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000015_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000020_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000025_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000030_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000035_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000040_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000045_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000050_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000055_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000060_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000065_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000070_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000075_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000080_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000085_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000090_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000095_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000100_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000105_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000110_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000115_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000120_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000125_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000130_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000135_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000140_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000145_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000150_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000155_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000160_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000165_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000170_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000175_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000180_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000185_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000190_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000195_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000200_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000205_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000210_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000215_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000220_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000225_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000230_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000235_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000240_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000245_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000250_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000255_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000260_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000270_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000275_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000280_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000285_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000290_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000300_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000305_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000310_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000315_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000320_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000325_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000330_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000335_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000340_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000345_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000350_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000355_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000360_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000365_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000370_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000375_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000380_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000385_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000390_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000395_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000400_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000405_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000410_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000415_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000420_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000425_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000430_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000435_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000440_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000445_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000450_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000455_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000460_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000465_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000470_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000475_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000480_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000485_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000490_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000495_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000500_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000505_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000510_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000515_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000520_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000525_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000530_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000535_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000540_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000545_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000550_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000555_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000560_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000565_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000570_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000575_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000580_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000585_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000590_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000595_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000600_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000605_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000610_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000615_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000620_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000625_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000630_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000635_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000640_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000645_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000650_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000655_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000660_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000665_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000670_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000675_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000680_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000685_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000690_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000695_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000700_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000705_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000710_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000715_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000725_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000730_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000740_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000745_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000750_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000760_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000765_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000770_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000775_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000780_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000785_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000790_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000795_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000800_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000805_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000810_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000815_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000820_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000825_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000830_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000835_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000840_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000845_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000850_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000855_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000860_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000865_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000870_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000875_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000880_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000885_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000890_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000895_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000900_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000905_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000910_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000915_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000920_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000925_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000930_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000935_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000940_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000945_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000950_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000955_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000960_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000965_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000970_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000980_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000990_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame000995_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001000_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001005_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001010_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001015_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001020_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001025_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001030_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001035_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001040_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001045_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001050_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001055_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001060_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001065_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001070_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001075_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001080_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001085_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001090_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001095_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001100_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001105_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001110_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001115_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001120_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001125_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001130_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001135_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001140_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001145_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001150_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001155_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001160_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001165_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001170_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001175_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001185_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001220_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001225_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001230_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001375_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001445_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001530_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001550_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001560_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001565_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001605_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001635_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001640_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001650_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001655_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001660_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001665_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001670_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001675_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001680_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001685_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001690_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001700_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001705_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001710_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001715_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001720_明火.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_125006\\fire1mp4\\fire1mp4_frame001725_明火.jpg"
+    ]
+  }
+]

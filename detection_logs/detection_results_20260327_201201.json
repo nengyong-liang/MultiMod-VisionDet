@@ -1,0 +1,60 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fall\\02.mp4",
+    "video_name": "02.mp4",
+    "category": "fall",
+    "total_frames": 189,
+    "sample_interval": 5,
+    "fps": 29.67265876442421,
+    "confirmed_count": 2,
+    "suspect_count": 0,
+    "danger_rate": 5.405405405405405,
+    "event_types": {
+      "摔倒": 2
+    },
+    "events_log": [
+      {
+        "frame": 70,
+        "confirmed": [
+          {
+            "type": "摔倒",
+            "confidence": 0,
+            "class_name": "fall",
+            "box": [
+              323.6994323730469,
+              400.227783203125,
+              878.73681640625,
+              720.0
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 75,
+        "confirmed": [
+          {
+            "type": "摔倒",
+            "confidence": 0,
+            "class_name": "fall",
+            "box": [
+              341.8941650390625,
+              464.783447265625,
+              940.195068359375,
+              720.0
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_201201\\02mp4_confirmed\\confirmed_02mp4_f000070_FALL.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_201201\\02mp4_confirmed\\confirmed_02mp4_f000075_FALL.jpg"
+    ]
+  }
+]

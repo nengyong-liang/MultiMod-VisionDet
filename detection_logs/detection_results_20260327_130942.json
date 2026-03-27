@@ -1,0 +1,55 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fall\\02.mp4",
+    "video_name": "02.mp4",
+    "category": "fall",
+    "total_frames": 189,
+    "sample_interval": 5,
+    "fps": 29.67265876442421,
+    "danger_frames_count": 2,
+    "danger_rate": 5.405405405405405,
+    "event_types": {
+      "摔倒": 2
+    },
+    "events_log": [
+      {
+        "frame": 70,
+        "events": [
+          {
+            "type": "摔倒",
+            "confidence": 0.442,
+            "class_name": "fall",
+            "box": [
+              323.6994323730469,
+              400.227783203125,
+              878.73681640625,
+              720.0
+            ],
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "frame": 75,
+        "events": [
+          {
+            "type": "摔倒",
+            "confidence": 0.363,
+            "class_name": "fall",
+            "box": [
+              341.8941650390625,
+              464.783447265625,
+              940.195068359375,
+              720.0
+            ],
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_130942\\02mp4\\02mp4_frame000070_摔倒.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_130942\\02mp4\\02mp4_frame000075_摔倒.jpg"
+    ]
+  }
+]

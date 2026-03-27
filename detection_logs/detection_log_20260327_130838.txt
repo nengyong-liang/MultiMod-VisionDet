@@ -1,0 +1,141 @@
+[2026-03-27 13:0838] ================================================================================
+[2026-03-27 13:0838] 监控视频危险事件检测系统 v3 初始化 (融合方案版)
+[2026-03-27 13:0838] 检测模式: 类别限制模式 (restricted)
+[2026-03-27 13:0838] 抽帧间隔: 每 5 帧检测一次
+[2026-03-27 13:0838] 保存异常帧: 是
+[2026-03-27 13:0838] 最低置信度阈值: 0.3
+[2026-03-27 13:0838] 时序平滑窗口: 连续 3 帧确认
+[2026-03-27 13:0838] 火焰置信度阈值: 0.5
+[2026-03-27 13:0838] 摔倒置信度阈值: 0.5
+[2026-03-27 13:0838] 斗殴置信度阈值: 0.5
+[2026-03-27 13:0838] ================================================================================
+[2026-03-27 13:0838] ================================================================================
+[2026-03-27 13:0838] 危险事件检测系统 v3 启动 (融合方案版)
+[2026-03-27 13:0838] ================================================================================
+[2026-03-27 13:0838] ----------------------------------------
+[2026-03-27 13:0838] 加载预训练模型...
+[2026-03-27 13:0838] [OK] Fire火焰检测模型加载成功
+[2026-03-27 13:0838] [OK] Fight斗殴检测模型加载成功
+[2026-03-27 13:0838] [OK] Fall摔倒检测模型加载成功
+[2026-03-27 13:0838] [OK] YOLOv8n-Pose 姿态估计模型加载成功 (人物骨架可视化)
+[2026-03-27 13:0838] [OK] YOLOv8n 人物检测模型加载成功
+[2026-03-27 13:0838] ----------------------------------------
+[2026-03-27 13:0838] 
+>>> 发现危险类别文件夹: fall
+[2026-03-27 13:0838] --------------------------------------------------------------------------------
+[2026-03-27 13:0838] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fall\02.mp4
+[2026-03-27 13:0838] 预期危险类别: fall
+[2026-03-27 13:0839] 视频信息: 1280x720, 29.7fps, 共189帧
+[2026-03-27 13:0839] 将检测约 37 帧
+[2026-03-27 13:0839] 开始抽帧分析（v3融合方案版）...
+[2026-03-27 13:0841] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0842] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0842] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0843] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0844] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0844] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0845] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0846] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0846] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0846]   进度: 10/37 帧 (27%)
+[2026-03-27 13:0846] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0847] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0847] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0848] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0848] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0848] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0849] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0850] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0850]   进度: 20/37 帧 (54%)
+[2026-03-27 13:0850] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0851] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0851] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0852] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0852] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0852] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0853] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0853] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0853] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0854] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0854]   进度: 30/37 帧 (81%)
+[2026-03-27 13:0854] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0855] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0855] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0855] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0856] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0856] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0857] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0857] [WARNING] Pose检测异常: a Tensor with 17 elements cannot be converted to Scalar
+[2026-03-27 13:0857] 视频处理完成! 共检测到 0 个危险帧
+[2026-03-27 13:0857] 确认危险帧数量: 0
+[2026-03-27 13:0857] 保存异常帧数量: 0
+[2026-03-27 13:0857] ================================================================================
+[2026-03-27 13:0857] 检测报告摘要
+[2026-03-27 13:0857] ================================================================================
+[2026-03-27 13:0857] 视频文件: 02.mp4
+[2026-03-27 13:0857] 预期危险类别: fall
+[2026-03-27 13:0857] 总帧数: 189, 帧率: 29.7 FPS
+[2026-03-27 13:0857] 抽帧间隔: 每 5 帧
+[2026-03-27 13:0857] 确认危险帧数: 0 (0.00%)
+[2026-03-27 13:0857] 保存异常帧数量: 0
+[2026-03-27 13:0857] ================================================================================
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fall\06.mp4
+[2026-03-27 13:0857] 预期危险类别: fall
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 06.mp4
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fall\12.mp4
+[2026-03-27 13:0857] 预期危险类别: fall
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 12.mp4
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fall\16.mp4
+[2026-03-27 13:0857] 预期危险类别: fall
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 16.mp4
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fall\23.mp4
+[2026-03-27 13:0857] 预期危险类别: fall
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 23.mp4
+[2026-03-27 13:0857] 
+>>> 发现危险类别文件夹: fight
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fight\1234.mp4
+[2026-03-27 13:0857] 预期危险类别: fight
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 1234.mp4
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fight\3月27日.mp4
+[2026-03-27 13:0857] 预期危险类别: fight
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: 3月27日.mp4
+[2026-03-27 13:0857] 
+>>> 发现危险类别文件夹: fire
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fire\fire1.mp4
+[2026-03-27 13:0857] 预期危险类别: fire
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: fire1.mp4
+[2026-03-27 13:0857] --------------------------------------------------------------------------------
+[2026-03-27 13:0857] 开始处理视频: d:\1_LNY\code\MultiMod-VisionDet\data\video\fire\fire2.mp4
+[2026-03-27 13:0857] 预期危险类别: fire
+[2026-03-27 13:0857] [跳过] 不在调试视频范围内: fire2.mp4
+[2026-03-27 13:0857] 
+所有检测完成! 结果已保存到: d:\1_LNY\code\MultiMod-VisionDet\detection_logs\detection_results_20260327_130838.json
+[2026-03-27 13:0857] 异常帧图片保存目录: d:\1_LNY\code\MultiMod-VisionDet\detection_logs\detected_frames_20260327_130838
+[2026-03-27 13:0857] 
+================================================================================
+[2026-03-27 13:0857] 最终检测结果汇总
+[2026-03-27 13:0857] ================================================================================
+[2026-03-27 13:0857] 
+视频: 02.mp4
+[2026-03-27 13:0857]   预期类别: fall
+[2026-03-27 13:0857]   确认危险帧数: 0 (0.00%)
+[2026-03-27 13:0857]   保存帧数: 0
+[2026-03-27 13:0857] 
+总体统计:
+[2026-03-27 13:0857]   处理视频数: 1
+[2026-03-27 13:0857]   检测到危险的视频数: 0
+[2026-03-27 13:0857]   总确认危险帧数: 0
+[2026-03-27 13:0857]   保存异常帧总数: 0
+[2026-03-27 13:0857] 
+模型检测统计:
+[2026-03-27 13:0857]   火焰检测帧数: 0
+[2026-03-27 13:0857]   摔倒检测帧数: 0
+[2026-03-27 13:0857]   斗殴检测帧数: 0
+[2026-03-27 13:0857]   确认危险帧数: 0

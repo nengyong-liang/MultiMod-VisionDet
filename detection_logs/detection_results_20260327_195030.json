@@ -1,0 +1,1907 @@
+[
+  {
+    "video_path": "d:\\1_LNY\\code\\MultiMod-VisionDet\\data\\video\\fight\\1234.mp4",
+    "video_name": "1234.mp4",
+    "category": "fight",
+    "total_frames": 1734,
+    "sample_interval": 5,
+    "fps": 30.0,
+    "confirmed_count": 93,
+    "suspect_count": 0,
+    "danger_rate": 26.878612716763005,
+    "event_types": {
+      "斗殴": 103
+    },
+    "events_log": [
+      {
+        "frame": 25,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              71.96550750732422,
+              117.55077362060547,
+              195.783203125,
+              264.91534423828125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 40,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              71.79207611083984,
+              117.20915222167969,
+              238.19776916503906,
+              264.61444091796875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 45,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              71.19482421875,
+              112.04991912841797,
+              244.6388397216797,
+              259.2139892578125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 580,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              86.84178924560547,
+              109.40977478027344,
+              228.3578643798828,
+              244.8252410888672
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 645,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              82.318115234375,
+              124.44473266601562,
+              254.03163146972656,
+              268.158203125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 655,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              124.30733489990234,
+              124.15824127197266,
+              250.92098999023438,
+              250.6573944091797
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 660,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              81.41903686523438,
+              120.13639068603516,
+              246.46900939941406,
+              266.3172302246094
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 665,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              81.04114532470703,
+              126.0561294555664,
+              235.8921356201172,
+              264.84112548828125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 670,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              74.28679656982422,
+              121.70943450927734,
+              240.44619750976562,
+              273.1591491699219
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 675,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              69.04470825195312,
+              118.3177490234375,
+              237.4357147216797,
+              275.8132629394531
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 680,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              68.19097137451172,
+              122.34552764892578,
+              237.539306640625,
+              272.7437438964844
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 685,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              71.28633117675781,
+              129.50914001464844,
+              243.522705078125,
+              271.48663330078125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 690,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              114.85000610351562,
+              124.97974395751953,
+              236.7137908935547,
+              258.8536682128906
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 700,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.84697723388672,
+              121.49002838134766,
+              233.97283935546875,
+              250.94801330566406
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 705,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.50662994384766,
+              120.85933685302734,
+              234.88623046875,
+              251.4373321533203
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 710,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              126.0760269165039,
+              118.82604217529297,
+              234.40956115722656,
+              251.22589111328125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 715,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.3594970703125,
+              122.91902923583984,
+              234.34353637695312,
+              251.31756591796875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 725,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              124.31110382080078,
+              127.97101593017578,
+              237.28256225585938,
+              252.81593322753906
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 730,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              116.51412200927734,
+              132.69435119628906,
+              231.3397979736328,
+              256.1639404296875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 735,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              70.15946960449219,
+              140.76614379882812,
+              233.92137145996094,
+              262.8717041015625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 740,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              73.42495727539062,
+              148.22340393066406,
+              236.82249450683594,
+              264.8623352050781
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 745,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              70.45388793945312,
+              149.95303344726562,
+              234.26300048828125,
+              272.51177978515625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 750,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.92675018310547,
+              150.94979858398438,
+              237.0283203125,
+              275.6641845703125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 755,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              61.8399772644043,
+              149.52134704589844,
+              235.8955078125,
+              277.13433837890625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 760,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.50189208984375,
+              148.52796936035156,
+              233.61935424804688,
+              279.1578369140625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 765,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              63.09781265258789,
+              149.86843872070312,
+              237.5824432373047,
+              275.0187683105469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 770,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.96664810180664,
+              150.18287658691406,
+              238.5242156982422,
+              275.3093566894531
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 775,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.91120529174805,
+              149.8643798828125,
+              237.4337158203125,
+              275.16357421875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 780,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              63.09592819213867,
+              148.9684295654297,
+              235.72409057617188,
+              274.1112365722656
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 785,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.994876861572266,
+              149.5221405029297,
+              234.93673706054688,
+              274.3174743652344
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 790,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.9068603515625,
+              150.3948516845703,
+              234.0886688232422,
+              274.576416015625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 795,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              63.29481506347656,
+              150.7405548095703,
+              236.5509796142578,
+              275.1623840332031
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 800,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              64.02571868896484,
+              149.03440856933594,
+              233.10362243652344,
+              277.5658874511719
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 805,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              64.173828125,
+              147.67041015625,
+              232.39317321777344,
+              278.0994567871094
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 810,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              64.148193359375,
+              146.4632110595703,
+              233.18666076660156,
+              280.9892578125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 815,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              62.83415222167969,
+              144.21109008789062,
+              234.54318237304688,
+              282.8887023925781
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 820,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              57.19131088256836,
+              145.4374542236328,
+              231.95626831054688,
+              283.98095703125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 825,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              51.58994674682617,
+              141.71348571777344,
+              233.42596435546875,
+              285.4657287597656
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 830,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              47.093910217285156,
+              140.9207305908203,
+              229.96681213378906,
+              285.4029846191406
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 845,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              63.59675979614258,
+              137.94705200195312,
+              233.23146057128906,
+              288.843994140625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 865,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              37.0754508972168,
+              144.01666259765625,
+              228.24192810058594,
+              291.4364013671875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 870,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              37.931758880615234,
+              144.32296752929688,
+              232.0210418701172,
+              292.5706481933594
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 950,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              83.78329467773438,
+              130.9877471923828,
+              226.5791778564453,
+              284.5086364746094
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 970,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              129.87330627441406,
+              120.96642303466797,
+              234.7898406982422,
+              285.2348327636719
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 980,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              127.59585571289062,
+              112.8946533203125,
+              232.05067443847656,
+              283.4868469238281
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1000,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              126.90265655517578,
+              126.28020477294922,
+              256.64324951171875,
+              297.7813720703125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1005,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              127.46257019042969,
+              136.68798828125,
+              270.2824401855469,
+              301.9670104980469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1010,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              128.14773559570312,
+              138.5752410888672,
+              260.0150146484375,
+              314.53070068359375
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1015,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              113.93712615966797,
+              126.41645812988281,
+              253.74232482910156,
+              317.1694641113281
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1020,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              105.5659408569336,
+              118.5233154296875,
+              242.09747314453125,
+              339.84326171875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1030,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              127.35249328613281,
+              105.3843765258789,
+              254.77493286132812,
+              281.0362548828125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1065,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              127.80889129638672,
+              108.26313781738281,
+              274.2847595214844,
+              299.5145568847656
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1070,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              144.5334014892578,
+              104.97322845458984,
+              270.69024658203125,
+              295.3638000488281
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              183.00917053222656,
+              103.984619140625,
+              269.7078552246094,
+              294.8961181640625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1075,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.72762298583984,
+              103.70732116699219,
+              276.78497314453125,
+              281.629638671875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1080,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.69168090820312,
+              107.01702880859375,
+              274.58245849609375,
+              272.9279479980469
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              180.90676879882812,
+              105.89511108398438,
+              272.9114990234375,
+              273.44097900390625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1085,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.12882232666016,
+              106.8314437866211,
+              292.808837890625,
+              276.2998046875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1090,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.44474792480469,
+              110.5048828125,
+              307.8005065917969,
+              279.1616516113281
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1100,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              124.25121307373047,
+              99.99693298339844,
+              290.3740234375,
+              262.3723449707031
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1105,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              184.74154663085938,
+              110.16515350341797,
+              340.8714599609375,
+              264.87384033203125
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.15924072265625,
+              112.94798278808594,
+              345.9130554199219,
+              264.6085205078125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1110,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              127.6717529296875,
+              112.62199401855469,
+              329.01318359375,
+              266.21875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1115,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              197.12252807617188,
+              111.84188842773438,
+              320.18743896484375,
+              266.6544189453125
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              138.5039520263672,
+              113.24261474609375,
+              320.1944580078125,
+              267.5617370605469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1120,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              217.5098114013672,
+              110.82089233398438,
+              324.49285888671875,
+              271.5263366699219
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              133.4962921142578,
+              111.13417053222656,
+              324.22479248046875,
+              270.0154113769531
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1125,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              241.19374084472656,
+              113.76110076904297,
+              327.9189147949219,
+              298.26409912109375
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1130,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              252.6670684814453,
+              124.62013244628906,
+              341.7320556640625,
+              297.6568298339844
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1135,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              255.98785400390625,
+              169.07647705078125,
+              411.9291687011719,
+              308.132080078125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1140,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              240.56491088867188,
+              182.8887481689453,
+              412.4057312011719,
+              298.28717041015625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1145,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              236.36721801757812,
+              165.3743438720703,
+              423.56829833984375,
+              300.0396728515625
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              157.8701171875,
+              164.69981384277344,
+              424.885498046875,
+              297.98089599609375
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1150,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              259.6877136230469,
+              209.97645568847656,
+              454.322509765625,
+              298.2548522949219
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              240.9876708984375,
+              166.7041473388672,
+              453.9244079589844,
+              297.431884765625
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              144.72735595703125,
+              147.6747589111328,
+              450.9390563964844,
+              297.3131103515625
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              125.72547912597656,
+              143.30816650390625,
+              307.9511413574219,
+              293.01434326171875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1170,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              251.02671813964844,
+              172.0784454345703,
+              438.077880859375,
+              306.3059997558594
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1185,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              263.08953857421875,
+              172.9508056640625,
+              433.9000549316406,
+              303.7104797363281
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1190,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              267.8634948730469,
+              173.89710998535156,
+              411.29345703125,
+              305.3737487792969
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1220,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              275.658935546875,
+              170.9540557861328,
+              395.49267578125,
+              296.9219970703125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1225,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              269.0700988769531,
+              169.55531311035156,
+              401.47821044921875,
+              295.5860900878906
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1230,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              266.9339599609375,
+              170.95620727539062,
+              389.67901611328125,
+              295.9178466796875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1240,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              286.275634765625,
+              172.60382080078125,
+              391.9635009765625,
+              290.1001281738281
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1245,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              274.4350891113281,
+              173.7305145263672,
+              393.5679931640625,
+              281.3371887207031
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1250,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              265.191650390625,
+              173.04623413085938,
+              398.9464416503906,
+              279.0285339355469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1255,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              257.1427001953125,
+              174.94839477539062,
+              399.0412902832031,
+              281.2914733886719
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1260,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              257.0252380371094,
+              176.723388671875,
+              396.197021484375,
+              280.926025390625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1275,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              283.900390625,
+              173.0393829345703,
+              386.15374755859375,
+              280.46844482421875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1290,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              270.8524475097656,
+              172.9500274658203,
+              370.95599365234375,
+              289.3548278808594
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1295,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              266.0926513671875,
+              164.63763427734375,
+              375.0112609863281,
+              288.7906799316406
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1305,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              253.7480010986328,
+              142.27774047851562,
+              370.77679443359375,
+              283.86383056640625
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1315,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              250.42947387695312,
+              125.08517456054688,
+              385.6603088378906,
+              282.8341979980469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1340,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              253.48333740234375,
+              86.80389404296875,
+              389.1714172363281,
+              292.9893798828125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1355,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              253.74644470214844,
+              117.30341339111328,
+              351.3059387207031,
+              294.7137145996094
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1370,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              129.5652618408203,
+              122.25145721435547,
+              365.7079162597656,
+              294.85736083984375
+            ],
+            "track_id": null,
+            "confirmed": true
+          },
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              218.90748596191406,
+              118.57732391357422,
+              365.6492004394531,
+              293.31121826171875
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1375,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              241.361328125,
+              112.62686157226562,
+              358.0546569824219,
+              321.9306945800781
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1400,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              130.0601043701172,
+              139.90188598632812,
+              351.033935546875,
+              313.0458679199219
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1405,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              217.44662475585938,
+              129.26747131347656,
+              354.0376892089844,
+              304.8757629394531
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1410,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              232.3114013671875,
+              122.82222747802734,
+              352.407470703125,
+              302.7169189453125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1415,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              254.74359130859375,
+              125.81712341308594,
+              362.4761657714844,
+              306.290283203125
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      },
+      {
+        "frame": 1420,
+        "confirmed": [
+          {
+            "type": "斗殴",
+            "confidence": 0,
+            "box": [
+              276.17877197265625,
+              121.06147766113281,
+              376.2048034667969,
+              308.6447448730469
+            ],
+            "track_id": null,
+            "confirmed": true
+          }
+        ],
+        "suspect": []
+      }
+    ],
+    "saved_frames": [
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000025_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000040_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000045_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000580_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000645_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000655_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000660_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000665_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000670_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000675_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000680_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000685_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000690_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000700_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000705_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000710_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000715_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000725_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000730_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000735_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000740_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000745_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000750_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000755_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000760_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000765_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000770_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000775_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000780_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000785_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000790_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000795_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000800_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000805_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000810_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000815_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000820_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000825_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000830_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000845_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000865_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000870_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000950_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000970_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame000980_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001000_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001005_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001010_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001015_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001020_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001030_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001065_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001070_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001075_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001080_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001085_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001090_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001100_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001105_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001110_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001115_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001120_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001125_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001130_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001135_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001140_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001145_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001150_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001170_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001185_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001190_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001220_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001225_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001230_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001240_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001245_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001250_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001255_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001260_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001275_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001290_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001295_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001305_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001315_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001340_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001355_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001370_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001375_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001400_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001405_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001410_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001415_斗殴.jpg",
+      "d:\\1_LNY\\code\\MultiMod-VisionDet\\detection_logs\\detected_frames_20260327_195030\\1234mp4_确认\\确认_1234mp4_frame001420_斗殴.jpg"
+    ]
+  }
+]
